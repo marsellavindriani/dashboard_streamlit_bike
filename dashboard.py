@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 url = "https://github.com/marsellavindriani/dashboard_streamlit_bike/blob/main/main_data.csv"
-data = pd.read_csv("url")  
+data = pd.read_csv(url)  
 
 st.title("Bike Sharing Data Analysis")
 
