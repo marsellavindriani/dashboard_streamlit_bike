@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-data = pd.read_csv("Dashboard/main_data.csv")  
+url = "https://github.com/marsellavindriani/dashboard_streamlit_bike/blob/main/main_data.csv"
+data = pd.read_csv("url")  
 
 st.title("Bike Sharing Data Analysis")
 
