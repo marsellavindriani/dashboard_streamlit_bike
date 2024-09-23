@@ -39,7 +39,7 @@ st.pyplot(plt)
 st.markdown ("Grafik menunjukkan tren sewa sepeda bulanan selama 2 tahun terakhir. Terlihat adanya peningkatan sewa sepeda setiap pertengahan tahun dan mengalami penurunan ketika mendekati akhir tahun.")
 
 # 2. Pola Sewa Sepeda Musiman
-st.subheader("Sewa Sepeda Berdasarksn Musim")
+st.subheader("Sewa Sepeda Berdasarkan Musim")
 pola_musim = data.groupby('season')[['registered', 'casual']].sum().reset_index()
 urutan_musim = ['spring', 'summer', 'fall', 'winter']
 plt.figure(figsize=(12, 6))
