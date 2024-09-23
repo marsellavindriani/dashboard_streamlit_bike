@@ -37,7 +37,7 @@ plt.legend(title="Tahun", loc="upper right")
 plt.tight_layout()
 st.pyplot(plt)
 
-st.markdown ("Grafik menunjukkan tren sewa sepeda bulanan selama 2 tahun terakhir. Terlihat adanya peningkatan sewa sepeda setiap pertengahan tahun dan mengalami penurunan ketika mendekati akhir tahun")
+st.markdown("Grafik menunjukkan tren sewa sepeda bulanan selama 2 tahun terakhir. Terlihat adanya peningkatan sewa sepeda setiap pertengahan tahun dan mengalami penurunan ketika mendekati akhir tahun")
 
 # 2. Pola Sewa Sepeda Musiman
 st.subheader("Sewa Sepeda Berdasarksn Musim")
